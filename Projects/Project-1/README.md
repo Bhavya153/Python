@@ -53,7 +53,7 @@ Note: The id() value can be different every time the program runs and may vary b
 
 ▶️ Watch the Explanation Video
 
-Link: 
+Link: https://drive.google.com/file/d/1hFI0ZAGw7aDPdmNzjbaugP7aPfJoi5wh/view?usp=sharing
 
 📂 Project Structure
 Interactive-Personal-Data-Collector/
