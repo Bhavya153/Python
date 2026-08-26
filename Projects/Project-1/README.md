@@ -1,128 +1,67 @@
-Interactive Personal Data Collector — README
 🧑‍💻 Interactive Personal Data Collector
 
-A simple and beginner-friendly Python console application that collects personal information from the user and displays the entered data along with its data type and memory address.
+Welcome to the Interactive Personal Data Collector! 🎉
 
-It also calculates an approximate birth year based on the user's age.
+This beginner-friendly Python program collects basic information from the user and demonstrates important Python concepts such as input handling, type conversion, data types, memory addresses, and basic calculations.
 
 ✨ Features
-👤 Collects the user's name
-🎂 Collects the user's age
-📏 Collects the user's height
-🔢 Collects the user's favourite number
-📅 Calculates the approximate birth year
-🐍 Displays the Python data type of each value
-💾 Displays the memory address using Python's id() function
-💬 Provides a simple interactive console experience
-🛠️ Technologies Used
-Python 3
-input() — for taking user input
-int() — for converting input to integers
-float() — for converting height to a decimal number
-type() — for identifying data types
-id() — for displaying the object's memory identity
-🚀 How to Run
-1. Make sure Python is installed
-
-Check your Python version:
-
-python --version
-
-2. Save the program
-
-Save the code in a file such as:
-
-personal_data_collector.py
-
-3. Run the program
-python personal_data_collector.py
-
-🖥️ Example
+👤 Takes the user's name
+🎂 Takes the user's age
+📏 Takes the user's height
+🔢 Takes the user's favourite number
+📅 Calculates an approximate birth year
+🧩 Displays the data type of each value
+🧠 Displays the memory address using id()
+💬 Provides a simple and interactive user experience
+🛠️ Python Concepts Used
+Concept	Usage
+input()	Taking information from the user
+int()	Converting input into an integer
+float()	Converting input into a decimal number
+type()	Checking the data type
+id()	Getting the object's identity/memory-related identifier
+Variables	Storing user information
+Arithmetic	Calculating the birth year
+print()	Displaying the results
+▶️ How to Run
+Make sure Python is installed on your computer.
+Open the project in VS Code or any Python IDE.
+Run the Python file:
+python main.py
+Enter the requested information when prompted.
+📌 Example
 Welcome to the Interactive Personal Data Collector!
 
-Please Enter your name: Alex
-Please Enter your age: 20
+Please Enter your name: Bhavya
+Please Enter your age: 21
 Please Enter your Height: 5.8
 Please Enter your favourite number: 7
 
 Thank You Here is the information we collected:
 
-Name: Alex (Type: <class 'str'>, Memory Address: 123456789)
-Age: 20 (Type: <class 'int'>, Memory Address: 123456789)
-Height: 5.8 (Type: <class 'float'>, Memory Address: 123456789)
-Favourite No.: 7 (Type: <class 'int'>, Memory Address: 123456789)
+Name: Bhavya
+Age: 21
+Height: 5.8
+Favourite No.: 7
 
-Your birth year is approximately: 2006
-(Based on your age: 20)
+Your birth year is approximately: 2005
 
-Thank you for using Interactive Personal Data Collector! Goodbye!
+Note: The id() value can be different every time the program runs and may vary between Python implementations.
 
+🎥 Explanation Video
+📺 Interactive Personal Data Collector – Python Program Explanation
 
-Note: Memory addresses shown by id() can be different each time the program runs.
+▶️ Watch the Explanation Video
 
-🧠 Concepts Demonstrated
-Variables
+Link: https://drive.google.com/file/d/1hFI0ZAGw7aDPdmNzjbaugP7aPfJoi5wh/view?usp=sharing
 
-The program stores user information in variables such as:
+📂 Project Structure
+Interactive-Personal-Data-Collector/
+│
+├── main.py
+└── README.md
+🎯 Purpose
 
-name
-age
-height
-fav
-birthyear
+This project was created to practice Python fundamentals and understand how Python handles user input, variables, data types, type conversion, calculations, and object identities.
 
-Type Conversion
-
-User input is initially received as a string. The program converts numeric values using:
-
-int()
-float()
-
-Data Types
-
-The program demonstrates three common Python data types:
-
-Input	Python Type
-Name	str
-Age	int
-Height	float
-Favourite Number	int
-type()
-
-The type() function tells us the type of an object:
-
-type(age)
-
-id()
-
-The id() function returns the identity of an object during its lifetime:
-
-id(age)
-
-Basic Calculation
-
-The approximate birth year is calculated with:
-
-birthyear = 2026 - age
-
-⚠️ Important Note
-
-This project is intended for Python learning and practice. The entered information is only used by the running program and is not automatically stored in a database or sent anywhere.
-
-The birth year is only an approximation, because the calculation does not consider whether the user's birthday has already occurred in the current year.
-
-📚 Learning Outcomes
-
-By completing this project, beginners can practice:
-
-Taking input from users
-Working with variables
-Converting data types
-Using type()
-Using id()
-Performing arithmetic calculations
-Formatting console output
-Building a basic interactive Python program
-🎥 Video Explanation
-
-Video Explanation:
+⭐ If you found this project useful, feel free to give it a star!
